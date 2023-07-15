@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+ }
+ body{
+    font-family: sans-serif;
+ }
+#tribute_page{
+    background-color:gainsboro;
+    padding: 20px 10px;
+    overflow: hidden;
+
+}
+.peoples{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.person_name{
+    font-size: 3rem;
+    padding: 20px;
+}
+.person_work{
+    
+    padding-bottom: 20px;
+}
+
+
+.person_bio{
+    display: flex;
+    flex-direction: column;
+    height: 700px;    
+    background-color: white ;
+    
+}
+.person_bio img{
+    height: 600px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    align-items: center;
+ 
+}
+.person_bio p{
+    
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+#info{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#info ul li{
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding-top:20px ;
+    width: 70%;
+    line-height: 40px;
+}
+
+.info-last{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    font-style: italic;
+    color: rgb(77, 77, 77);
+}
+.info-last p{
+    width: 40rem;
+    line-height: 1.3rem;
+}
+.info-last span{
+    margin-left: 70px;
+}
+
+
+
+
+.name{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
